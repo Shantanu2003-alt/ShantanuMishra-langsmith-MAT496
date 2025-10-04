@@ -79,4 +79,8 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/so
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/tree/main/Module2
 
+# Module 2 Video 4: Analyzing Experiment Results
+This lesson showed me how to read the experiment results in LangSmith.
+LangSmith dashboards show metrics over time and can compare different experiments on different datasets with different application versions.
+This lesson was an explanation of this topic and did not have any source code to make changes to.
 
