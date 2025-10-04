@@ -46,4 +46,20 @@ Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module1/conversational_threads%20(1).ipynb
 
 
-# Module 2 Video 1: 
+# Module 2 Video 1: Datasets
+So I learned that datasets are the collections of example questions and answers and are used to check how well a model works. 
+They can be added in many ways like through code, UI, tracing or AI and they form the base for testing and experiments.
+I made my dataset and then used my own examples in the notebook and then changed a question in it as well. 
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/sourcecode/dataset_upload.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module2/dataset_upload%20(1).ipynb
+
+# Module 2 Video 2: Evaluators
+
+
+
+
+
