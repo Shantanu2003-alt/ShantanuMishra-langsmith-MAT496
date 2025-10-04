@@ -69,9 +69,9 @@ Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module2/evaluators%20(1).ipynb
 
 # Module 2 Video 3: Experiments
-I learned that experiments use evaluators on a dataset to measure model performance. 
-They can be run on some examples or the whole dataset and they give detailed reports to compare different models or methods.
+I learned that experiments use evaluators on a dataset to measure model performance. They can be run on some examples or the whole dataset and they give detailed reports to compare different models or methods.
 I successfully ran the experiment on my dataset using all my examples and running them in different ways- modifying it, running over different pieces of data, with dataset split, specific data points and with other parameters. 
+Used GPT-4o mini alongside GPT-4o and GPT-3.5-turbo, tagged earliest dataset version as “initial”, created a “crucial” split and added 2 example IDs to run targeted experiments.
 
 Original source code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/sourcecode/experiments.ipynb
@@ -85,12 +85,18 @@ LangSmith dashboards show metrics over time and can compare different experiment
 This lesson was an explanation of this topic and did not have any source code to make changes to.
 
 # Module 2 Video 5: Pairwise Experiments
-Here I learned about pairwise evaluation, where two outputs are compared directly. This method works well when scoring alone doesn’t show which answer is stronger. Using LLM-as-judge, the better output can be identified side by side — useful for optimizing prompts and comparing models like GPT-4o and 3.5 Turbo.
+This video taught me about pairwise evaluation where two outputs were compared directly- comparing the models like GPT-4o and 3.5 Turbo here.
+So, two different LLM prompts on the same dataset were compared to score summaries with an evaluator and to run pairwise experiments to see which prompt gives better results.
+I compared two experiments (good vs bad summarizer) using their experiment IDs.
 
 Original source code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/sourcecode/pairwise_experiments.ipynb
 
 Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module2/pairwise%20experiments1.ipynb
+
+Also, this is the image for the experimental analysis:
+<img width="1314" height="544" alt="image" src="https://github.com/user-attachments/assets/58877217-a959-408c-9be2-ac941fa0d7a4" />
 
 
 
