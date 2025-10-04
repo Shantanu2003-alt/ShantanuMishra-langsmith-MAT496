@@ -3,6 +3,7 @@ This repository is for my video-by-video progress of different modules of the In
 I have written my learnings and my work of each video of the Modules below:
 
 # Module 1 Video 1: Tracing Basics
+Learnings and Changes:
 So in this lesson, I learned how tracing works in LangChain and why it is useful for debugging and improving apps. 
 By setting the environment variables, I could track what was happening inside the model step by step and adding metadata made it easier to organize runs in LangSmith and to review model performance over time.
 I changed the question in the file to "How do I apply the @traceable decorator to a function?"
@@ -14,6 +15,7 @@ Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module1/tracing_basics%20(2).ipynb
 
 # Module 1 Video 2: Types of Runs
+Learnings and Changes:
 This lesson showed me how to label runs with different types, that can make outputs clearer and I saw what each part of the pipeline is doing. 
 I learned about various run types like llm,chain,retriever,tool and reducing chunks using reduce_fn function.
 I added run_type="llm" and model metadata to the @traceable decorator and I changed the example to say goodbye to the user instead of greeting it which helped in understanding of run_type function.
@@ -25,6 +27,7 @@ Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module1/types_of_runs%20(1).ipynb
 
 # Module 1 Video 3: Alternative Ways to Trace
+Learnings and Changes:
 Here, I saw that tracing does not have to be global and we can use the trace() method to track only certain parts of the code. 
 This gives more control when we do not want everything to be traced at once and I learned about enabling tracing at the project level for consistency.
 I changed the question to How are the clouds formed to create a more descriptive and proper example.
@@ -36,6 +39,7 @@ Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module1/alternative_tracing_methods%20(3).ipynb
 
 # Module 1 Video 4: Conversational Thread
+Learnings and Changes:
 This video explained how to link multiple queries together with a common thread ID. So the follow-up questions stay connected and that is important for chatbots. 
 In LangChain, it shows up like a dialogue flow and makes the conversations easier to follow and manage.
 So, I changed the last question here to prove that the question got answered on basis of its previous question.
@@ -48,6 +52,7 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Mo
 
 
 # Module 2 Video 1: Datasets
+Learnings and Changes:
 So I learned that datasets are the collections of example questions and answers and are used to check how well a model works. 
 They can be added in many ways like through code, UI, tracing or AI and they form the base for testing and experiments.
 I made my dataset and then used my own examples in the notebook and then changed a question in it as well. 
@@ -59,6 +64,7 @@ Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module2/dataset_upload%20(1).ipynb
 
 # Module 2 Video 2: Evaluators
+Learnings and Changes:
 This video explained me that evaluators are the tools which score model answers against the correct answer. 
 They can check for things like correctness or similarity, they can be set up in different ways and they make it easy to test many examples at once.
 I added my own example in the notebook to get a higher semantic similarity score.
@@ -70,6 +76,7 @@ Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module2/evaluators%20(1).ipynb
 
 # Module 2 Video 3: Experiments
+Learnings and Changes:
 I learned that experiments use evaluators on a dataset to measure model performance. They can be run on some examples or the whole dataset and they give detailed reports to compare different models or methods.
 I successfully ran the experiment on my dataset using all my examples and running them in different ways- modifying it, running over different pieces of data, with dataset split, specific data points and with other parameters. 
 Used GPT-4o mini alongside GPT-4o and GPT-3.5-turbo, tagged earliest dataset version as “initial”, created a “crucial” split and added 2 example IDs to run targeted experiments.
@@ -81,11 +88,13 @@ Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module2/experiments_(3)%20(1).ipynb
 
 # Module 2 Video 4: Analyzing Experiment Results
+Learnings and Changes:
 This lesson showed me how to read the experiment results in LangSmith.
 LangSmith dashboards show metrics over time and can compare different experiments on different datasets with different application versions.
 This lesson was an explanation of this topic and did not have any source code to make changes to.
 
 # Module 2 Video 5: Pairwise Experiments
+Learnings and Changes:
 This video taught me about pairwise evaluation where two outputs were compared directly- comparing the models like GPT-4o and 3.5 Turbo here.
 So, two different LLM prompts on the same dataset were compared to score summaries with an evaluator and to run pairwise experiments to see which prompt gives better results.
 I compared two experiments (good vs bad summarizer) using their experiment IDs.
@@ -100,6 +109,7 @@ Also, this is the image for the comparative experimental analysis:
 <img width="1314" height="544" alt="image" src="https://github.com/user-attachments/assets/58877217-a959-408c-9be2-ac941fa0d7a4" />
 
 # Module 2 Video 6: Summary Evaluators
+Learnings and Changes:
 This video introduced summary evaluators, which calculate overall metrics across a whole experiment instead of per example. 
 They give overall performance scores that help compare models on large datasets.
 I learned about how to calculate the F1-score across all the predictions to find out how well the toxicity classifier has performed.
