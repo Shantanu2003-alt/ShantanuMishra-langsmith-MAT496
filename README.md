@@ -1,5 +1,6 @@
 # ShantanuMishra-langsmith-MAT496
 This repository is for my video-by-video progress of different modules of the Introduction to LangSmith course by LangChain Academy.
+I have written my learnings and my work of each video of the Modules below:
 
 # Module 1 Video 1: Tracing Basics
 So in this lesson, I learned how tracing works in LangChain and why it is useful for debugging and improving apps. 
