@@ -60,7 +60,7 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Mo
 # Module 2 Video 2: Evaluators
 This video explained me that evaluators are the tools which score model answers against the correct answer. 
 They can check for things like correctness or similarity, they can be set up in different ways and they make it easy to test many examples at once.
-I added my own example to get a higher semantic similarity score.
+I added my own example in the notebook to get a higher semantic similarity score.
 
 Original source code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/sourcecode/evaluators.ipynb
@@ -68,5 +68,15 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/so
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module2/evaluators%20(1).ipynb
 
+# Module 2 Video 3: Experiments
+I learned that experiments use evaluators on a dataset to measure model performance. 
+They can be run on some examples or the whole dataset and they give detailed reports to compare different models or methods.
+I successfully ran the experiment on my dataset using all my examples and running them in different ways- modifying it, running over different pieces of data, with dataset split, specific data points and with other parameters. 
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/sourcecode/experiments.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/tree/main/Module2
 
 
