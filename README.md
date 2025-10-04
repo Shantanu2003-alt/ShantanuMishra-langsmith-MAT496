@@ -77,10 +77,22 @@ Original source code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/sourcecode/experiments.ipynb
 
 Edited code file:
-https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/tree/main/Module2
+https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module2/experiments_(3)%20(1).ipynb
 
 # Module 2 Video 4: Analyzing Experiment Results
 This lesson showed me how to read the experiment results in LangSmith.
 LangSmith dashboards show metrics over time and can compare different experiments on different datasets with different application versions.
 This lesson was an explanation of this topic and did not have any source code to make changes to.
+
+# Module 2 Video 5: Pairwise Experiments
+Here I learned about pairwise evaluation, where two outputs are compared directly. This method works well when scoring alone doesn’t show which answer is stronger. Using LLM-as-judge, the better output can be identified side by side — useful for optimizing prompts and comparing models like GPT-4o and 3.5 Turbo.
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/sourcecode/pairwise_experiments.ipynb
+
+Edited code file:
+
+
+
+
 
