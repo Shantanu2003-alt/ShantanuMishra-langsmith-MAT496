@@ -95,10 +95,22 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/so
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module2/pairwise%20experiments1.ipynb
 
-Also, this is the image for the experimental analysis:
+Also, this is the image for the comparative experimental analysis:
 <img width="1314" height="544" alt="image" src="https://github.com/user-attachments/assets/58877217-a959-408c-9be2-ac941fa0d7a4" />
 
+# Module 2 Video 6: Summary Evaluators
+This video introduced summary evaluators, which calculate overall metrics across a whole experiment instead of per example. 
+They give overall performance scores that help compare models on large datasets.
+I learned about how to calculate the F1-score across all the predictions to find out how well the toxicity classifier has performed.
 
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/sourcecode/summary_evaluators.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module2/summary%20evaluators1.ipynb
+
+Also, this is the image for the calculation and comparison of F1-scores across different toxicity classifier experiments:
+<img width="1324" height="625" alt="image" src="https://github.com/user-attachments/assets/bb8b3c5b-80ff-40d3-bcd5-13519661a059" />
 
 
 
