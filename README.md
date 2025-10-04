@@ -23,3 +23,14 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/so
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module1/types_of_runs%20(1).ipynb
 
+# Module 1 Video 3: Alternative Ways to Trace
+Here, I saw that tracing does not have to be global and we can use the trace() method to track only certain parts of the code. 
+This gives more control when we do not want everything to be traced at once and I learned about enabling tracing at the project level for consistency.
+Changed the question to How are the clouds formed to create a more descriptive and proper example.
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/sourcecode/alternative_tracing_methods.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module1/alternative_tracing_methods%20(3).ipynb
+
