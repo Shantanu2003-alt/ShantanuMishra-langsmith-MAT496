@@ -58,8 +58,15 @@ Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module2/dataset_upload%20(1).ipynb
 
 # Module 2 Video 2: Evaluators
+This video explained me that evaluators are the tools which score model answers against the correct answer. 
+They can check for things like correctness or similarity, they can be set up in different ways and they make it easy to test many examples at once.
+I added my own example to get a higher semantic similarity score.
 
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/sourcecode/evaluators.ipynb
 
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langsmith-MAT496/blob/main/Module2/evaluators%20(1).ipynb
 
 
 
